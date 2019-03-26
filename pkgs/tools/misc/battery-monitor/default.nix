@@ -6,7 +6,7 @@ buildPythonPackage rec {
   pname = "battery-monitor";
   version = "0.6";
 
-  src = pkgs.fetchFromGitHub {
+  src = fetchFromGitHub {
     owner = "maateen";
     repo = "${pname}";
     rev = "8754ddf05332ad255d15a5274e4e42084cde6183";
