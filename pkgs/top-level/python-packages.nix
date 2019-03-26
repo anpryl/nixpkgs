@@ -276,6 +276,8 @@ in {
 
   bash_kernel = callPackage ../development/python-modules/bash_kernel { };
 
+  battery-monitor = callPackage ../tools/misc/battery-monitor {};
+
   bayespy = callPackage ../development/python-modules/bayespy { };
 
   beanstalkc = callPackage ../development/python-modules/beanstalkc { };

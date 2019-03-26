@@ -662,6 +662,8 @@ in
 
   automirror = callPackage ../tools/misc/automirror { };
 
+  battery-monitor = with python3Packages; toPythonApplication battery-monitor;
+
   bcachefs-tools = callPackage ../tools/filesystems/bcachefs-tools { };
 
   bitwarden-cli = callPackage ../tools/security/bitwarden-cli { };
