@@ -30,7 +30,7 @@ in
 
 stdenv.mkDerivation rec {
   name = "go-${version}";
-  version = "1.12.1";
+  version = "1.12.5";
 
   src = fetchurl {
     url = "https://dl.google.com/go/go${version}.src.tar.gz";
